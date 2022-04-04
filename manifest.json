@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+
+    "name": "Endgame Spoiler Blocker",
+    "description": "This extension indescriminately blocks all mentions of Endgame characters and plotlines in an attempt to not have my life ruined.",
+    "version": "0.1",
+    "author": "Urvisha",
+
+    "action": {
+        "default_icon": {
+            "19": "images/icon19.png",
+            "38": "images/icon38.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        }
+    },
+    "icons": {
+        "19": "images/icon19.png",
+        "38": "images/icon38.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+
+    "background": {
+        "service_worker": "startup.js"
+    }
+}
