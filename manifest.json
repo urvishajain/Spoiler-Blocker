@@ -1,16 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Endgame Spoiler Blocker",
-    "version": "0.1",
-    "description": "Removes spoiler words of endgame",
-    "permissions": [
-      "activeTab",
-      "scripting"
-    ],
-    "background": {
-      "service_worker": "background.js"
-    }
-     "action": {
+    "action": {
         "default_icon": {
             "19": "images/icon19.png",
             "38": "images/icon38.png",
@@ -24,6 +14,16 @@
         "48": "images/icon48.png",
         "128": "images/icon128.png"
 
-    }
-  }
+    },
 
+    "name": "Endgame Spoiler Blocker",
+    "version": "0.1",
+    "description": "Removes spoiler words of endgame",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
